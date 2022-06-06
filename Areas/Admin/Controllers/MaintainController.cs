@@ -2,6 +2,7 @@
 
 namespace ContosoUniversity.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class MaintainController : Controller
     {
         public IActionResult Index()
